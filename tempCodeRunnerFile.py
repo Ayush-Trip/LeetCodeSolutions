@@ -1,2 +1,2 @@
-
-#     ans.append(gain[i]-gain[i+1])
+):
+#     ans.append(nums[
