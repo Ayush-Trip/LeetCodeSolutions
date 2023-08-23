@@ -15,5 +15,4 @@ class Solution:
                     dp[i + j] = min(dp[i] + 1, dp[i + j])
                 else:
                     break
-
         return dp[n]
