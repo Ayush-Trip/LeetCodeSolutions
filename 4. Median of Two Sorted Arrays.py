@@ -9,4 +9,4 @@ class Solution:
             return(avg)
         else:
             mid=n//2
-            return(nums1[mid])
+            return(nums1[mid])3. Longest Substring Without Repeating Characters
