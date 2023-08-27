@@ -12,6 +12,3 @@ class Solution:
                 newInterval[1] = max(newInterval[1],i[1])
         l.append(newInterval)
         return l
-
-
-
