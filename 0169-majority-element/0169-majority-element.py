@@ -1,11 +1,11 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         cu = 0
-        for num in nums:
+        for i in nums:
             if cu == 0:
-                c = num
+                c = i
                 cu = 1
-            elif num == c:
+            elif i == c:
                 cu += 1
             else:
                 cu -= 1
