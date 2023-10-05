@@ -1,6 +1,5 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        c = None
         cu = 0
         for num in nums:
             if cu == 0:
